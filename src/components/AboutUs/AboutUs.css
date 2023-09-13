@@ -1,0 +1,39 @@
+.about-us-area {
+  padding: 80px 0;
+}
+
+.about-child-wrap {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.about-child-icon i {
+  margin-right: 1.25rem;
+  margin-bottom: 1rem;
+  color: #09aff4;
+  font-size: 25px;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  background-color: #09aff426;
+  transition: all 0.3s ease-in-out 0s;
+  width: 56px;
+  height: 56px;
+  text-align: center;
+}
+
+.about-child-title {
+  margin-bottom: 15px;
+}
+
+.about-child-title h4 {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.signature-ceo {
+  display: inline-block;
+}
+
+.signature-ceo img {
+  filter: invert(1);
+}

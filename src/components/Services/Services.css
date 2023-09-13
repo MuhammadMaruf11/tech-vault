@@ -1,0 +1,117 @@
+.services-area {
+  padding: 80px 0;
+}
+
+.service-bg {
+  background: url("../../assets/img/bg/banner-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.services-title {
+  padding: 180px 0;
+}
+
+.see-services-btn .btn {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.15rem;
+  min-width: 220px;
+  border-radius: 0 20px;
+  border: 2px solid;
+  color: #09aff4;
+  border-color: #09aff4;
+  background-color: transparent;
+}
+
+.see-services-btn .btn:hover {
+  background: #09aff4;
+  color: #fff;
+}
+
+.see-services-btn .btn i {
+  transition: all 0.3s linear;
+}
+
+.see-services-btn .btn:hover i {
+  transform: translateX(5px);
+}
+
+.service-wrap {
+  border: 1px solid #09aff4;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px #0609221a;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  z-index: 0;
+  margin-bottom: 30px;
+  height: 340px;
+  position: relative;
+}
+.service-wrap::before {
+  content: "";
+  border-radius: inherit;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: auto;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  background-color: #09aff4;
+  z-index: -3;
+  transition: transform 0.5s ease 0s;
+}
+
+.service-wrap:hover::before {
+  left: 0;
+  right: auto;
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.service-icon {
+  margin-bottom: 15px;
+}
+
+.service-icon i {
+  font-size: 48px;
+  color: #09aff4;
+  transition: all 0.3s linear;
+}
+
+.service-wrap:hover .service-icon i {
+  color: #fff;
+}
+
+.service-description {
+  margin-bottom: 20px;
+}
+
+.service-link {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+}
+
+.service-link a {
+  color: #09aff4;
+  transition: all 0.3s linear;
+  font-weight: 700;
+}
+
+.service-wrap:hover .service-link a {
+  color: #fff;
+}
+
+.service-link a i {
+  transition: all 0.3s linear;
+}
+
+.service-link a:hover i {
+  transform: translateX(5px);
+}

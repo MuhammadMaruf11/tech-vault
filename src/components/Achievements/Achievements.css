@@ -1,0 +1,46 @@
+.achievements-area {
+  padding: 80px 0;
+}
+
+.achievement-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background: radial-gradient(
+    circle,
+    rgba(14, 153, 224, 1) 25%,
+    rgba(6, 170, 200, 1) 75%
+  );
+}
+
+.achievements-wrap {
+  text-align: center;
+  position: relative;
+  padding: 2rem;
+  background-color: #06092240;
+  border: 1px solid #09aff459;
+  border-top: 0.25rem solid #09aff4;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.achievements-icon i {
+  font-size: 40px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #09aff4;
+  opacity: 0.65;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.odometer.odometer-auto-theme {
+  display: block;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 0;
+  color: #fff;
+}

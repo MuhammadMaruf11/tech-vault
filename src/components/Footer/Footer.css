@@ -1,0 +1,127 @@
+.footer-area {
+  padding: 70px 0;
+  color: #001a27;
+}
+
+.footer-bg {
+  background: url("../../assets/img/bg/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+}
+
+.footer-logo {
+  width: 250px;
+  margin-left: -12px;
+}
+
+.footer-description {
+  margin-bottom: 20px;
+}
+
+.footer-input-wrap {
+  position: relative;
+}
+
+.footer-input-wrap label {
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: #001a27;
+}
+
+.footer-input-wrap input {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+}
+.footer-input-wrap .subscribe-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  outline: 0;
+  border: 0;
+  background: #09aff4;
+  color: #fff;
+  padding: 0.75rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.footer-input-wrap span {
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.footer-widget-title {
+  margin-bottom: 30px;
+}
+
+.footer-widget-title h5 {
+  margin-bottom: 0;
+  color: #001a27;
+}
+
+.footer-widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-widget ul li {
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a {
+  color: #001a27;
+  text-transform: capitalize;
+}
+
+.footer-widget ul li a i {
+  margin-right: 5px;
+  transition: all 0.3s linear;
+  color: #09aff4;
+}
+
+.footer-widget ul li a:hover i {
+  margin-right: 10px;
+}
+.footer-contact ul li {
+  color: #001a27;
+}
+.footer-contact ul li i {
+  margin-right: 5px;
+  transition: all 0.3s linear;
+  color: #09aff4;
+}
+
+.footer-contact ul li:hover i {
+  margin-right: 10px;
+}
+.footer-social ul li {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 0;
+}
+
+.footer-social ul li a i {
+  padding: 8px;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  background: #09aff4;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+}
+
+.footer-social ul li a:hover i {
+  color: #fff;
+  background: #001a27;
+  margin: 0;
+}
+
+/* 09aff4 */

@@ -1,3 +1,12 @@
+.header-area.header-fixed {
+  background: #001a27;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: all 0.3s linear;
+}
 
 .navbar {
   list-style: none;
@@ -6,7 +15,6 @@
   padding: 0;
   padding: 14px 0;
   box-shadow: 0 2px 12px #00000020;
-  background: #001a27;
 }
 
 .navbar li {
@@ -15,8 +23,8 @@
 
 .navbar a {
   text-decoration: none;
- width: 200px;
- color: #fff;
+  width: 200px;
+  color: #fff;
   font-weight: bold;
 }
 

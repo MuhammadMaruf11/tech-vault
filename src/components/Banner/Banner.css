@@ -1,0 +1,54 @@
+.banner-area {
+  padding: 124px 0;
+}
+
+.banner-bg {
+  background: url("../../assets/img/bg/banner-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 593px;
+}
+
+.banner-title span {
+  text-transform: uppercase;
+  color: #09aff4;
+  font-weight: 700;
+  /* letter-spacing: 5px; */
+  display: flex;
+  align-items: center;
+}
+
+.banner-title span i {
+  font-size: 4px;
+  margin: 0 2px;
+}
+.banner-heading h1 {
+  text-transform: capitalize;
+}
+.banner-heading h1 span {
+  color: #09aff4;
+  text-decoration: wavy;
+}
+
+.banner-description {
+  margin-bottom: 20px;
+}
+
+.banner-btn .btn {
+  margin-bottom: 0;
+  margin-right: 1.5rem;
+  font-size: 1.15rem;
+  min-width: 180px;
+  border-radius: 0 20px;
+  border: 2px solid;
+  color: #09aff4;
+  border-color: #09aff4;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+
+.banner-btn .btn:hover {
+  background: #09aff4;
+  color: #fff;
+}
