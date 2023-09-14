@@ -5,6 +5,15 @@ import Layout from "../Layout/Layout";
 const ServicesPage = () => {
   return (
     <Layout>
+      <div className="service-bg">
+        <div className="container">
+          <div className="row">
+            <div className="services-title">
+              <h2>Our Services</h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <Services />
     </Layout>
   );

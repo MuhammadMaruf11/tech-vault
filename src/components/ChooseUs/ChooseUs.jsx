@@ -1,6 +1,6 @@
 import React from "react";
 import "./ChooseUs.css";
-import ChooseImg from "../../assets/img/about-us/choose-us.jpg";
+import ChooseImg from "../../assets/img/about/choose-us.jpg";
 
 const ChooseUs = () => {
   return (
@@ -22,9 +22,9 @@ const ChooseUs = () => {
                   </span>
                 </div>
                 <div className="banner-heading">
-                  <h1>
+                  <h2>
                     Why Our Customers Choose <span>working</span> with us
-                  </h1>
+                  </h2>
                 </div>
                 <div className="banner-description mb-5">
                   <p>

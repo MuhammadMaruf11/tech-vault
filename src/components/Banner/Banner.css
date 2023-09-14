@@ -26,6 +26,11 @@
 .banner-heading h1 {
   text-transform: capitalize;
 }
+
+.banner-heading h2 {
+  text-transform: capitalize;
+  font-size: 42px;
+}
 .banner-heading h1 span {
   color: #09aff4;
   text-decoration: wavy;

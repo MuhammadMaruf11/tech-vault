@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutUs.css";
 // import SignCEO from "../../assets/img/signature/signature-ceo.png";
-import AboutImg from "../../assets/img/about-us/staff-augments.jpg";
+import AboutImg from "../../assets/img/about/staff-augments.jpg";
 
 const AboutUs = () => {
   return (
@@ -18,9 +18,9 @@ const AboutUs = () => {
                   </span>
                 </div>
                 <div className="banner-heading">
-                  <h1>
+                  <h2>
                     Trusted By Worldwide Clients Since <span>2021</span>
-                  </h1>
+                  </h2>
                 </div>
                 <div className="banner-description mb-5">
                   <p>

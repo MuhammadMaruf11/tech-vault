@@ -1,10 +1,22 @@
 import React from "react";
 import Layout from "../Layout/Layout";
+import AboutUs from "../../components/AboutUs/AboutUs";
+import ChooseUs from "../../components/ChooseUs/ChooseUs";
 
 const AboutPage = () => {
   return (
     <Layout>
-      <h1>About Page</h1>
+      <div className="service-bg">
+        <div className="container">
+          <div className="row">
+            <div className="services-title">
+              <h2>About Us</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <AboutUs />
+      <ChooseUs />
     </Layout>
   );
 };

@@ -12,7 +12,7 @@ const ServiceTitle = () => {
           </span>
         </div>
         <div className="banner-heading">
-          <h1>Services we offer</h1>
+          <h2>Services we offer</h2>
         </div>
         <div className="banner-description">
           <p>

@@ -5,15 +5,19 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import HomeService from "./HomeService";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import Achievements from "../../components/Achievements/Achievements";
+import HomeProducts from "./HomeProducts";
+import Portfolio from "../../components/Portfolio/Portfolio";
 
 const Home = () => {
   return (
     <Layout>
       <Banner />
-      <HomeService />
       <AboutUs />
       <ChooseUs />
       <Achievements />
+      <HomeService />
+      <Portfolio />
+      <HomeProducts />
     </Layout>
   );
 };

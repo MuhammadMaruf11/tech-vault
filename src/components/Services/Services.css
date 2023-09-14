@@ -11,7 +11,11 @@
 }
 
 .services-title {
-  padding: 180px 0;
+  padding: 155px 0;
+}
+
+.services-title h2 {
+  font-size: 52px;
 }
 
 .see-services-btn .btn {

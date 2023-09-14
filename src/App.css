@@ -57,12 +57,20 @@ input:focus,
 textarea,
 textarea:focus,
 .btn:focus {
+  color: #fff;
   outline: 0;
   box-shadow: none;
 }
 
+::placeholder {
+  color: #fff;
+}
+.form-control:focus::placeholder {
+  color: #fff;
+}
+
 .form-control:focus {
-  color: #191919;
+  color: #fff;
   background-color: transparent;
   outline: 0;
   box-shadow: none;
