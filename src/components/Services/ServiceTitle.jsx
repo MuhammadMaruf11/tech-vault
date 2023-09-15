@@ -15,10 +15,10 @@ const ServiceTitle = () => {
           <h2>Services we offer</h2>
         </div>
         <div className="banner-description">
-          <p>
+          <spa>
             Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Omnis Id
             Atque Dignissimos Repellat Quae Ullam.
-          </p>
+          </spa>
         </div>
       </div>
       <div className="col-md-4 text-end offset-xl-3 offset-lg-2">

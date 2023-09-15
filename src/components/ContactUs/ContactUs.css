@@ -27,6 +27,11 @@
 }
 
 .contact-address-wrap ul li span {
+  color: #001a27;
+  font-weight: 700;
+}
+
+body.dark-mode .contact-address-wrap ul li span {
   color: #fff;
   font-weight: 700;
 }

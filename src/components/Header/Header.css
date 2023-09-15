@@ -1,3 +1,13 @@
+.header-area{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #001a27;
+  z-index: 999;
+  transition: all 0.3s linear;
+}
+
 .header-area.header-fixed {
   background: #001a27;
   position: fixed;
@@ -30,4 +40,9 @@
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+
+.toggle-btn {
+  width: 50px;
 }

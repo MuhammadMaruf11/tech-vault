@@ -8,6 +8,7 @@ import ProductsPage from './pages/ProductsPage/ProductsPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import TeamPage from './pages/TeamPage/TeamPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import ClientsPage from './pages/ClientsPage/ClientsPage';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/products" element={<ProductsPage />} />
+      <Route path="/clients-portfolio" element={<ClientsPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/team" element={<TeamPage />} />
       <Route path="/contact" element={<ContactPage />} />

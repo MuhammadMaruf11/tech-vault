@@ -17,8 +17,8 @@ const Banner = () => {
                 </div>
                 <div className="banner-heading">
                   <h1>
-                    Providing The Best Services & Software Developemnt{" "}
-                    <span>Solutions</span>
+                    Providing The Best Services & Software Developemnt 
+                    <span> Solutions</span>
                   </h1>
                 </div>
                 <div className="banner-description">

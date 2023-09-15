@@ -28,7 +28,7 @@ const Achievements = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              {" "}
+              
               <div className="achievements-wrap">
                 <div className="achievements-icon">
                   <i className="fa-solid fa-arrows-to-circle"></i>
@@ -40,7 +40,7 @@ const Achievements = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              {" "}
+              
               <div className="achievements-wrap">
                 <div className="achievements-icon">
                   <i className="fa-solid fa-user"></i>
@@ -52,7 +52,7 @@ const Achievements = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              {" "}
+              
               <div className="achievements-wrap">
                 <div className="achievements-icon">
                   <i className="fa-solid fa-crosshairs"></i>

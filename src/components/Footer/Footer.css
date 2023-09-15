@@ -4,11 +4,9 @@
 }
 
 .footer-bg {
-  background: url("../../assets/img/bg/footer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 360px;
   background: #c4dbe7;
 }
 
@@ -61,8 +59,8 @@
 }
 
 .footer-widget-title h5 {
-  margin-bottom: 0;
-  color: #001a27;
+  margin-bottom: 0 !important;
+  color: #001a27 !important;
 }
 
 .footer-widget ul {

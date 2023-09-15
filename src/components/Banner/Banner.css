@@ -25,6 +25,7 @@
 }
 .banner-heading h1 {
   text-transform: capitalize;
+  color: #fff;
 }
 
 .banner-heading h2 {
@@ -38,6 +39,18 @@
 
 .banner-description {
   margin-bottom: 20px;
+}
+
+.banner-description p{
+  color: #fff;
+}
+
+.banner-description span{
+  color: #001a27;
+}
+
+body.dark-mode .banner-description span{
+  color: #fff;
 }
 
 .banner-btn .btn {

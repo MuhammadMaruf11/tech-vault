@@ -8,7 +8,7 @@ const ContactPage = () => {
       <div className="service-bg">
         <div className="container">
           <div className="row">
-            <div className="services-title">
+            <div className="section-title">
               <h2>Contact Us</h2>
             </div>
           </div>

@@ -23,11 +23,11 @@ const AboutUs = () => {
                   </h2>
                 </div>
                 <div className="banner-description mb-5">
-                  <p>
+                  <span>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Eaque magnam minus distinctio alias praesentium fugit! Eaque
                     magnam minus distinctio alias praesentium fugit!
-                  </p>
+                  </span>
                 </div>
                 <div className="row mb-3">
                   <div className="col-md-6">

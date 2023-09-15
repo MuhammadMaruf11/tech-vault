@@ -8,7 +8,7 @@ const ServicesPage = () => {
       <div className="service-bg">
         <div className="container">
           <div className="row">
-            <div className="services-title">
+            <div className="section-title">
               <h2>Our Services</h2>
             </div>
           </div>

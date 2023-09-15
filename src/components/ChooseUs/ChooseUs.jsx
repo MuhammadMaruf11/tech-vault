@@ -27,11 +27,11 @@ const ChooseUs = () => {
                   </h2>
                 </div>
                 <div className="banner-description mb-5">
-                  <p>
+                  <span>
                     LLorem ipsum dolor sit amet consectetur adipisicing elit. A
                     officia molestiae dolorum tempora ut accusamus cupiditate!
                     Nesciunt tempora reiciendis libero voluptate!
-                  </p>
+                  </span>
                 </div>
                 <div className="row mb-3">
                   <div className="col-12">
