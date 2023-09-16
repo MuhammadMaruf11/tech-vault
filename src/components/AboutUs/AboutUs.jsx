@@ -130,7 +130,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="about-us-img">
+              <div className="about-us-img ms-lg-4">
                 <img src={AboutImg} alt="about_us" />
               </div>
             </div>

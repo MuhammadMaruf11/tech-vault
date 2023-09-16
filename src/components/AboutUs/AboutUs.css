@@ -41,3 +41,7 @@
 .signature-ceo img {
   filter: invert(1);
 }
+
+.speech-wrap p {
+  text-align: justify;
+}

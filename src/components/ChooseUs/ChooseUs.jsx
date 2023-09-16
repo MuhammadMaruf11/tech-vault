@@ -9,7 +9,7 @@ const ChooseUs = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="about-us-img">
+              <div className="about-us-img me-lg-4">
                 <img src={ChooseImg} alt="about_us" />
               </div>
             </div>

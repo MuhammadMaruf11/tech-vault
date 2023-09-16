@@ -4,12 +4,17 @@
 
 .profile-wrap {
   position: relative;
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0px 1px 20px 0px #06092226;
-  margin-bottom: 2rem;
+  box-shadow: 0px 0px 10px 5px #06092226;
+  margin: 0 auto 50px;
   text-align: center;
   transition: all 0.5s ease-in-out 0s;
   transition: all 0.3s linear;
+}
+
+body.dark-mode .profile-wrap {
+  box-shadow: 0px 0px 10px 5px #e4e4e426;
 }
 
 .profile-wrap:hover .profile-social {

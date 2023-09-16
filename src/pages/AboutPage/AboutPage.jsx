@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import AboutUs from "../../components/AboutUs/AboutUs";
-import ChooseUs from "../../components/ChooseUs/ChooseUs";
+import AboutUsTeam from "../../components/AboutUs/AboutUsTeam";
 
 const AboutPage = () => {
   return (
@@ -16,7 +16,7 @@ const AboutPage = () => {
         </div>
       </div>
       <AboutUs />
-      <ChooseUs />
+      <AboutUsTeam />
     </Layout>
   );
 };

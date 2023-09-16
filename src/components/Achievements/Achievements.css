@@ -3,8 +3,6 @@
 }
 
 .achievement-bg {
-  background-position: center;
-  background-repeat: no-repeat;
   background: radial-gradient(circle, #3a3687 25%, #244f8d 75%);
 }
 
