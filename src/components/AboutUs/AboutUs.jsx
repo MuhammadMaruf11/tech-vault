@@ -26,8 +26,11 @@ const AboutUs = () => {
                 <div className="banner-description mb-5">
                   <span>
                     We are passionate about
-                    <span className="text-theme-2"> Software Development</span>.
-                    Our journey began 2020, and since then, we have been
+                    <strong className="text-theme-2">
+                      {" "}
+                      Software Development
+                    </strong>
+                    . Our journey began 2020, and since then, we have been
                     dedicated to best software solutions to our clients. .
                   </span>
                 </div>

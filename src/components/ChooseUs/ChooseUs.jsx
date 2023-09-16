@@ -29,9 +29,10 @@ const ChooseUs = () => {
                 </div>
                 <div className="banner-description mb-5">
                   <span>
-                    We are your trusted partner for exceptional software
-                    solutions. Our commitment to excellence and customer
-                    satisfaction sets us apart. Here's why you should choose us:
+                    We are your trusted partner for exceptional{" "}
+                    <strong className="text-theme-2">software solutions</strong>
+                    . Our commitment to excellence and customer satisfaction
+                    sets us apart. Here's why you should choose us:
                   </span>
                 </div>
                 <div className="row mb-3">

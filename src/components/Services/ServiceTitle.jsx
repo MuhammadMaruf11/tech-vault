@@ -18,9 +18,10 @@ const ServiceTitle = () => {
         </div>
         <div className="banner-description">
           <span>
-            We offer a comprehensive range of software solutions tailored to
-            meet the unique needs of businesses across various industries. Our
-            services include:
+            We offer a comprehensive range of{" "}
+            <strong className="text-theme-2">software solutions</strong>{" "}
+            tailored to meet the unique needs of businesses across various
+            industries. Our services include:
           </span>
         </div>
       </div>

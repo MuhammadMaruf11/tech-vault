@@ -172,7 +172,7 @@ const Footer = () => {
                   <Link
                     to="https://digitaldecoderltd.com/"
                     target="_blank"
-                    className="text-theme"
+                    className="text-black"
                   >
                     <strong>Digital Decoder Ltd</strong>
                   </Link>
