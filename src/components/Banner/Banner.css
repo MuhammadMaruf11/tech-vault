@@ -1,5 +1,5 @@
 .banner-area {
-  padding: 124px 0;
+  padding: 130px 0;
 }
 
 .banner-bg {
@@ -26,30 +26,28 @@
 .banner-heading h1 {
   text-transform: capitalize;
   color: #fff;
+  text-align: justify;
 }
 
 .banner-heading h2 {
   text-transform: capitalize;
   font-size: 42px;
 }
-.banner-heading h1 span {
-  color: #09aff4;
-  text-decoration: wavy;
-}
 
 .banner-description {
   margin-bottom: 20px;
 }
 
-.banner-description p{
+.banner-description p {
   color: #fff;
+  text-align: justify;
 }
 
-.banner-description span{
+.banner-description span {
   color: #001a27;
 }
 
-body.dark-mode .banner-description span{
+body.dark-mode .banner-description span {
   color: #fff;
 }
 

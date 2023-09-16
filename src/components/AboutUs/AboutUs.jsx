@@ -19,14 +19,16 @@ const AboutUs = () => {
                 </div>
                 <div className="banner-heading">
                   <h2>
-                    Trusted By Worldwide Clients Since <span>2021</span>
+                    Trusted By Worldwide Clients Since{" "}
+                    <span className="text-theme-2">2020</span>
                   </h2>
                 </div>
                 <div className="banner-description mb-5">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eaque magnam minus distinctio alias praesentium fugit! Eaque
-                    magnam minus distinctio alias praesentium fugit!
+                    We are passionate about
+                    <span className="text-theme-2"> Software Development</span>.
+                    Our journey began 2020, and since then, we have been
+                    dedicated to best software solutions to our clients. .
                   </span>
                 </div>
                 <div className="row mb-3">
@@ -41,8 +43,12 @@ const AboutUs = () => {
                         </div>
                         <div className="about-child-description">
                           <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illum quasi
+                            <strong className="text-theme-2">
+                              {" "}
+                              Innovators:{" "}
+                            </strong>
+                            We pioneer innovative solutions, setting industry
+                            standards with cutting-edge products.
                           </p>
                         </div>
                       </div>
@@ -59,8 +65,11 @@ const AboutUs = () => {
                         </div>
                         <div className="about-child-description">
                           <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illum quasi
+                            <strong className="text-theme-2">
+                              Accessible:{" "}
+                            </strong>
+                            Our team is readily available for your questions,
+                            ideas, and support, ensuring your convenience.
                           </p>
                         </div>
                       </div>
@@ -77,8 +86,11 @@ const AboutUs = () => {
                         </div>
                         <div className="about-child-description">
                           <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illum quasi
+                            <strong className="text-theme-2">
+                              Global Reach:
+                            </strong>{" "}
+                            Providing diverse solutions worldwide, bringing a
+                            global perspective to every project.
                           </p>
                         </div>
                       </div>
@@ -95,8 +107,11 @@ const AboutUs = () => {
                         </div>
                         <div className="about-child-description">
                           <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illum quasi
+                            <strong className="text-theme-2">
+                              Always Available:
+                            </strong>{" "}
+                            Our dedicated support team is available around the
+                            clock, ensuring timely assistance.
                           </p>
                         </div>
                       </div>

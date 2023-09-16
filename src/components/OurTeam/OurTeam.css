@@ -1,3 +1,54 @@
-.team-area{
-    padding: 80px 0;
+.team-area {
+  padding: 80px 0;
+}
+
+.profile-wrap {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 1px 20px 0px #06092226;
+  margin-bottom: 2rem;
+  text-align: center;
+  transition: all 0.5s ease-in-out 0s;
+  transition: all 0.3s linear;
+}
+
+.profile-wrap:hover .profile-social {
+  visibility: visible;
+  opacity: 1;
+}
+
+.profile-body {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.profile-social {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25%;
+  padding: 1rem;
+  z-index: 7;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.profile-social a i {
+  padding: 8px;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  background: #09aff4;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+}
+
+.profile-social a:hover i {
+  color: #fff;
+  background: #001a27;
+  margin: 0;
 }

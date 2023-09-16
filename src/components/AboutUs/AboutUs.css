@@ -30,6 +30,10 @@
   margin-bottom: 0;
 }
 
+.about-child-description p {
+  text-align: justify;
+}
+
 .signature-ceo {
   display: inline-block;
 }

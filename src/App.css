@@ -13,12 +13,10 @@ body {
   color: #001a27;
   background: #fff;
 }
-body.dark-mode{
+body.dark-mode {
   color: #b8b9c0;
   background: #001a27;
 }
-
-
 
 img {
   max-width: 100%;
@@ -250,8 +248,20 @@ label {
   background: #000;
 }
 
+.text-theme {
+  color: #001a27 !important;
+}
+
+.text-theme-2 {
+  color: #09aff4 !important;
+}
+
 .bg-theme {
-  background: #289bd1;
+  background: #001a27 !important;
+}
+
+.bg-theme-2 {
+  background: #09aff4 !important;
 }
 
 .bg-light {
@@ -429,6 +439,6 @@ label {
   padding: 155px 0;
 }
 
-.section-title h2{
+.section-title h2 {
   color: #fff;
 }

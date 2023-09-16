@@ -12,13 +12,16 @@ const ServiceTitle = () => {
           </span>
         </div>
         <div className="banner-heading">
-          <h2>Services we offer</h2>
+          <h2>
+            What Services we <span className="text-theme-2">offer</span>
+          </h2>
         </div>
         <div className="banner-description">
-          <spa>
-            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Omnis Id
-            Atque Dignissimos Repellat Quae Ullam.
-          </spa>
+          <span>
+            We offer a comprehensive range of software solutions tailored to
+            meet the unique needs of businesses across various industries. Our
+            services include:
+          </span>
         </div>
       </div>
       <div className="col-md-4 text-end offset-xl-3 offset-lg-2">

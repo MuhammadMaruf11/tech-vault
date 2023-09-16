@@ -1,13 +1,15 @@
 .footer-area {
-  padding: 70px 0;
   color: #001a27;
 }
 
-.footer-bg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.footer-top {
   background: #c4dbe7;
+  padding: 70px 0;
+}
+
+.footer-bottom {
+  background: #09aff4;
+  padding: 20px 0;
 }
 
 .footer-logo {
@@ -17,6 +19,7 @@
 
 .footer-description {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .footer-input-wrap {
@@ -47,6 +50,11 @@
   padding: 0.75rem;
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
+  transition: all 0.3s linear;
+}
+
+.footer-input-wrap .subscribe-btn:hover {
+  background: #001a27;
 }
 
 .footer-input-wrap span {

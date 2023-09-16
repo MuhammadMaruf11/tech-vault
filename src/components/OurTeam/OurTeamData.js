@@ -1,0 +1,133 @@
+
+import profile1 from '../../assets/img/team/profile-1.jpg'
+import profile2 from '../../assets/img/team/profile-2.jpg'
+import profile3 from '../../assets/img/team/profile-3.jpg'
+import profile4 from '../../assets/img/team/profile-4.jpg'
+import profile5 from '../../assets/img/team/profile-5.jpg'
+import profile7 from '../../assets/img/team/profile-7.jpg'
+import profile8 from '../../assets/img/team/profile-8.jpg'
+import user from '../../assets/img/team/user.png'
+
+
+export const teamData = [
+    {
+        id: 1,
+        name: "RUKUNUJJAMAN MIAJI",
+        img: `${profile1}`,
+        designation: 'Sr. Software Engineer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 2,
+        name: "MD. MAHBUBUR RAHMAN",
+        img: `${profile2}`,
+        designation: 'Software Engineer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 3,
+        name: "MUHAMMAD MARUF",
+        img: `${profile3}`,
+        designation: 'Frontend Developer',
+        facebook: 'https://www.facebook.com/3rudit3/',
+        linkedin: 'https://www.linkedin.com/in/muhammadmaruf11/',
+        github: 'https://github.com/MuhammadMaruf11',
+        email: 'muhammad11maruf@gmail.com',
+    },
+    {
+        id: 4,
+        name: "KHALEKUZZAMAN MANIK",
+        img: `${profile4}`,
+        designation: 'UI/UX Designer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 5,
+        name: "MOHAMMAD NOMAN",
+        img: `${profile8}`,
+        designation: 'Software Engineer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 6,
+        name: "MD NASIR UDDIN",
+        img: `${profile7}`,
+        designation: 'Software Engineer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 7,
+        name: "MD. MONOWARUL ISLAM",
+        img: `${profile5}`,
+        designation: 'Marketing Manager',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 8,
+        name: "SHOUROV HOSSAIN",
+        img: `${user}`,
+        designation: 'Android/iOS Developer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 9,
+        name: "K.H. SHAKIL",
+        img: `${user}`,
+        designation: 'MERN Stack Developer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 10,
+        name: "AKRAM KHAN RONY",
+        img: `${user}`,
+        designation: 'Administrative Officer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 11,
+        name: "MD NAFISUR RAHMAN",
+        img: `${user}`,
+        designation: 'Backend Developer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+    {
+        id: 12,
+        name: "MEHEDI HASAN",
+        img: `${user}`,
+        designation: 'Software Developer',
+        facebook: '',
+        linkedin: '',
+        github: '',
+        email: '',
+    },
+];

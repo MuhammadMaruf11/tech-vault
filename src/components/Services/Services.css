@@ -10,8 +10,6 @@
   height: 400px;
 }
 
-
-
 .services-title h2 {
   font-size: 52px;
 }
@@ -94,11 +92,15 @@
   margin-bottom: 20px;
 }
 
-.service-wrap:hover .service-title h3{
+.service-description p {
+  text-align: justify;
+}
+
+.service-wrap:hover .service-title h3 {
   color: #fff;
 }
 
-.service-wrap:hover .service-description p{
+.service-wrap:hover .service-description p {
   color: #fff;
 }
 

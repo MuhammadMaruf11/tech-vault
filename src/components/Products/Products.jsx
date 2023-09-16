@@ -5,7 +5,7 @@ import Product from "./Product";
 const Products = () => {
   return (
     <>
-      <div className="services-area ">
+      <div className="products-area ">
         <div className="container">
           <div className="row">
             {productsData.map((productData) => (
