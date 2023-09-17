@@ -1,6 +1,6 @@
-import React from 'react'
-import Layout from '../Layout/Layout';
-import Portfolio from '../../components/Portfolio/Portfolio';
+import React from "react";
+import Layout from "../Layout/Layout";
+import Portfolio from "../../components/Portfolio/Portfolio";
 
 const ClientsPage = () => {
   return (
@@ -14,9 +14,9 @@ const ClientsPage = () => {
           </div>
         </div>
       </div>
-        <Portfolio/>
+      <Portfolio />
     </Layout>
   );
-}
+};
 
-export default ClientsPage
+export default ClientsPage;

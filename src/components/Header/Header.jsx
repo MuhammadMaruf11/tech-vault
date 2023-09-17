@@ -51,7 +51,7 @@ const Header = () => {
   };
 
   return (
-    <header className={headerClassName}>
+    <header className={`${headerClassName} fix`}>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" to="/">

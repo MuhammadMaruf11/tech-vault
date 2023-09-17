@@ -5,9 +5,9 @@ import Product from "./Product";
 const Products = () => {
   return (
     <>
-      <div className="products-area ">
+      <div className="products-area fix">
         <div className="container">
-          <div className="row">
+          <div className="row wow animate__zoomIn" data-wow-delay=".6s">
             {productsData.map((productData) => (
               <Product key={productData.id} productData={productData} />
             ))}

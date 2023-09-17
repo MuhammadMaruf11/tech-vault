@@ -4,11 +4,14 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <>
-      <div className="banner-area banner-bg">
+      <div className="banner-area banner-bg fix">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div className="banner-content">
+              <div
+                className="banner-content wow animate__zoomIn"
+                data-wow-delay=".3s"
+              >
                 <div className="banner-title">
                   <span>
                     <i className="fa-solid fa-circle"></i>software development

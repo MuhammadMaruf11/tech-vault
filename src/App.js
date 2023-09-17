@@ -1,5 +1,3 @@
-
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Error from './pages/Error/Error';
 import Home from './pages/HomePage/Home';
@@ -11,6 +9,9 @@ import ContactPage from './pages/ContactPage/ContactPage';
 import ClientsPage from './pages/ClientsPage/ClientsPage';
 
 
+import './App.css';
+// import animate css for animation
+import "animate.css/animate.css";
 
 function App() {
   return (

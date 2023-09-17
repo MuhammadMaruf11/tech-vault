@@ -6,20 +6,25 @@ import { Link } from "react-router-dom";
 const OurTeam = () => {
   return (
     <>
-      <div className="team-area">
+      <div className="team-area fix">
         <div className="container">
           <div className="row mb-4 align-items-center">
             <div className="col-md-8 col-lg-6 col-xl-5">
-              <div className="banner-title">
-                <span>
-                  <i className="fa-solid fa-circle"></i>services
-                  <i className="fa-solid fa-circle"></i>
-                </span>
-              </div>
-              <div className="banner-heading">
-                <h2>
-                  our team <span className="text-theme-2">members</span>
-                </h2>
+              <div
+                className="banner-content wow animate__fadeInLeft"
+                data-wow-delay=".3s"
+              >
+                <div className="banner-title">
+                  <span>
+                    <i className="fa-solid fa-circle"></i>services
+                    <i className="fa-solid fa-circle"></i>
+                  </span>
+                </div>
+                <div className="banner-heading">
+                  <h2>
+                    our team <span className="text-theme-2">members</span>
+                  </h2>
+                </div>
               </div>
             </div>
             {/* <div className="col-md-4 text-end offset-xl-3 offset-lg-2">
@@ -31,7 +36,7 @@ const OurTeam = () => {
               </div>
             </div> */}
           </div>
-          <div className="row">
+          <div className="row wow animate__zoomIn" data-wow-delay=".6s">
             {teamData &&
               teamData.map((index) => {
                 return (

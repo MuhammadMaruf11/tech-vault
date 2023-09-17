@@ -13,42 +13,50 @@ const Footer = () => {
     setEmail("");
   };
   return (
-    <footer className="footer-area">
+    <footer className="footer-area fix">
       <div className="footer-top">
         <div className="container">
           <div className="row">
             <div className="col-xl-4">
-              <div className="footer-logo mb-4">
-                <img src={Logo} alt="footer" />
-              </div>
-              <div className="footer-description">
-                Contact us and follow us on social media to stay updated.
-                <strong className="text-theme"> Subscribe </strong> to our
-                newsletter for the latest insights. Your success is our
-                priority."
-              </div>
-              <form onSubmit={handlenewsletter}>
-                <div className="footer-input-wrap">
-                  <label htmlFor="subscribe">Subscribe News Letter</label>
-                  <input
-                    className="form-control"
-                    type="email"
-                    placeholder="Email Address"
-                    id="subscribe"
-                    name="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                  />
-                  <button type="submit" className="subscribe-btn">
-                    Subscribe
-                  </button>
-                  <span>*we will not share your personal info</span>
+              <div
+                className="footer-items-wrap wow animate__fadeIn"
+                data-wow-delay=".3s"
+              >
+                <div className="footer-logo mb-4">
+                  <img src={Logo} alt="footer" />
                 </div>
-              </form>
+                <div className="footer-description">
+                  Contact us and follow us on social media to stay updated.
+                  <strong className="text-theme"> Subscribe </strong> to our
+                  newsletter for the latest insights. Your success is our
+                  priority."
+                </div>
+                <form onSubmit={handlenewsletter}>
+                  <div className="footer-input-wrap">
+                    <label htmlFor="subscribe">Subscribe News Letter</label>
+                    <input
+                      className="form-control"
+                      type="email"
+                      placeholder="Email Address"
+                      id="subscribe"
+                      name="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                    <button type="submit" className="subscribe-btn">
+                      Subscribe
+                    </button>
+                    <span>*we will not share your personal info</span>
+                  </div>
+                </form>
+              </div>
             </div>
             <div className="col-xl-2">
-              <div className="footer-widget">
+              <div
+                className="footer-widget wow animate__fadeInUp"
+                data-wow-delay=".5s"
+              >
                 <div className="footer-widget-title">
                   <h5>Useful Links</h5>
                 </div>
@@ -77,7 +85,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-xl-2">
-              <div className="footer-widget">
+              <div
+                className="footer-widget wow animate__fadeInUp"
+                data-wow-delay=".7s"
+              >
                 <div className="footer-widget-title">
                   <h5>Resources</h5>
                 </div>
@@ -106,7 +117,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-xl-3">
-              <div className="footer-widget">
+              <div
+                className="footer-widget wow animate__fadeInUp"
+                data-wow-delay=".9s"
+              >
                 <div className="footer-widget-title">
                   <h5>Contact Information</h5>
                 </div>
@@ -161,12 +175,18 @@ const Footer = () => {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-6">
-              <div className="copyright-text">
+              <div
+                className="copyright-text wow animate__fadeInLeft"
+                data-wow-delay=".3s"
+              >
                 <p className="text-white">&copy; 2023 Tech Vault Ltd.</p>
               </div>
             </div>
             <div className="col-md-6 text-end">
-              <div className="copyright-text">
+              <div
+                className="copyright-text wow animate__fadeInRight"
+                data-wow-delay=".3s"
+              >
                 <p className="text-white">
                   Developed by:{" "}
                   <Link

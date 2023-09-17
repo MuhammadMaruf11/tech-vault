@@ -12,9 +12,9 @@ import { ourClients } from "./PortfolioData";
 const Portfolio = () => {
   return (
     <>
-      <div className="portfolio-area achievement-bg">
+      <div className="portfolio-area achievement-bg fix">
         <div className="container">
-          <div className="row">
+          <div className="row wow animate__fadeIn" data-wow-delay=".3s">
             <Swiper
               loop={true}
               // onSlideChange={() => console.log('slide change')}

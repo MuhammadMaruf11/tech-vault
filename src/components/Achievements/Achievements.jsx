@@ -6,22 +6,28 @@ import "./Achievements.css";
 const Achievements = () => {
   return (
     <>
-      <div className="achievements-area achievement-bg">
+      <div className="achievements-area achievement-bg fix">
         <div className="container">
           <div className="row">
             <div className="col-lg-3">
-              <div className="achievements-wrap">
+              <div
+                className="achievements-wrap wow animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
                 <div className="achievements-icon">
                   <i className="fa-solid fa-people-roof"></i>
                 </div>
-                <Odometer value={100} format="(.ddd),dd" />
+                <Odometer value={100} animation="count" />
                 <div className="achievements-title">
                   <h5>Finished Projects</h5>
                 </div>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="achievements-wrap">
+              <div
+                className="achievements-wrap wow animate__fadeInUp"
+                data-wow-delay=".5s"
+              >
                 <div className="achievements-icon">
                   <i className="fa-solid fa-arrows-to-circle"></i>
                 </div>
@@ -32,7 +38,10 @@ const Achievements = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="achievements-wrap">
+              <div
+                className="achievements-wrap wow animate__fadeInUp"
+                data-wow-delay=".7s"
+              >
                 <div className="achievements-icon">
                   <i className="fa-solid fa-user"></i>
                 </div>
@@ -43,7 +52,10 @@ const Achievements = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="achievements-wrap">
+              <div
+                className="achievements-wrap wow animate__fadeInUp"
+                data-wow-delay=".9s"
+              >
                 <div className="achievements-icon">
                   <i className="fa-solid fa-crosshairs"></i>
                 </div>
