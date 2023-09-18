@@ -6,7 +6,7 @@ const Service = ({ serviceData }) => {
   const { title, icon, des } = serviceData || {};
   return (
     <>
-      <div className="col-lg-4">
+      <div className="col-md-6 col-xl-4">
         <div className="service-wrap">
           <div className="service-icon">
             <i className={icon}></i>

@@ -1,8 +1,12 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, useLocation } from 'react-router-dom';
-import './index.css';
+
 import App from './App';
+
+// some global css 
+import './global.css';
+import './responsive.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

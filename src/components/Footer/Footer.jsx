@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4">
+            <div className="col-lg-5 col-xl-4 mb-lg-0 mb-4">
               <div
                 className="footer-items-wrap wow animate__fadeIn"
                 data-wow-delay=".3s"
@@ -52,7 +52,7 @@ const Footer = () => {
                 </form>
               </div>
             </div>
-            <div className="col-xl-2">
+            <div className="col-lg-2 col-6 mb-lg-0 mb-3">
               <div
                 className="footer-widget wow animate__fadeInUp"
                 data-wow-delay=".5s"
@@ -84,7 +84,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-xl-2">
+            <div className="col-lg-2 col-6 mb-lg-0 mb-3">
               <div
                 className="footer-widget wow animate__fadeInUp"
                 data-wow-delay=".7s"
@@ -116,7 +116,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-xl-3">
+            <div className="col-lg-3">
               <div
                 className="footer-widget wow animate__fadeInUp"
                 data-wow-delay=".9s"

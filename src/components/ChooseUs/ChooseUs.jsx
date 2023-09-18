@@ -8,12 +8,12 @@ const ChooseUs = () => {
       <div className="about-us-area fix">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 order-2 order-lg-1">
               <div className="about-us-img me-lg-4 wow animate__fadeInLeft">
                 <img src={ChooseImg} alt="about_us" />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mb-lg-0 mb-5 order-1 order-lg-2">
               <div
                 className="banner-content wow animate__fadeInRight"
                 data-wow-delay=".3s"

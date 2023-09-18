@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner-area banner-bg fix">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-9">
               <div
                 className="banner-content wow animate__zoomIn"
                 data-wow-delay=".3s"

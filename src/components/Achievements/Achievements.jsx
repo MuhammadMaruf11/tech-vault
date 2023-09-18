@@ -1,7 +1,7 @@
 import React from "react";
-import Odometer from "react-odometerjs";
-import "odometer/themes/odometer-theme-default.css";
 import "./Achievements.css";
+import "odometer/themes/odometer-theme-default.css";
+import Odometer from "react-odometerjs";
 
 const Achievements = () => {
   return (
@@ -9,7 +9,7 @@ const Achievements = () => {
       <div className="achievements-area achievement-bg fix">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6 mb-lg-0 mb-4">
               <div
                 className="achievements-wrap wow animate__fadeInUp"
                 data-wow-delay=".3s"
@@ -23,7 +23,7 @@ const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6 mb-lg-0 mb-4">
               <div
                 className="achievements-wrap wow animate__fadeInUp"
                 data-wow-delay=".5s"
@@ -37,7 +37,7 @@ const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6 mb-md-0 mb-4">
               <div
                 className="achievements-wrap wow animate__fadeInUp"
                 data-wow-delay=".7s"
@@ -45,13 +45,13 @@ const Achievements = () => {
                 <div className="achievements-icon">
                   <i className="fa-solid fa-user"></i>
                 </div>
-                <Odometer value={1000} format="(.ddd),dd" />
+                <Odometer value={1000} format="(,ddd).dd" />
                 <div className="achievements-title">
                   <h5>Happy Customers</h5>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6 mb-lg-0">
               <div
                 className="achievements-wrap wow animate__fadeInUp"
                 data-wow-delay=".9s"

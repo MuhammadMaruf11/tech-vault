@@ -6,6 +6,13 @@
   display: flex;
   margin-bottom: 45px;
 }
+.about-us-img {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.about-us-img img {
+  width: 100%;
+}
 
 .about-child-icon i {
   margin-right: 1.25rem;
@@ -40,6 +47,10 @@
 
 .signature-ceo img {
   filter: invert(1);
+}
+
+.profile-wrap.about-profile {
+  width: 430px;
 }
 
 .speech-wrap p {

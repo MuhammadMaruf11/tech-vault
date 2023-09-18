@@ -1,5 +1,5 @@
 
-import profile1 from '../../assets/img/team/profile-1.jpg'
+// import profile1 from '../../assets/img/team/profile-1.jpg'
 import profile2 from '../../assets/img/team/profile-2.jpg'
 import profile3 from '../../assets/img/team/profile-3.jpg'
 import profile4 from '../../assets/img/team/profile-4.jpg'
@@ -10,16 +10,16 @@ import user from '../../assets/img/team/user.png'
 
 
 export const teamData = [
-    {
-        id: 1,
-        name: "RUKUNUJJAMAN MIAJI",
-        img: `${profile1}`,
-        designation: 'Sr. Software Engineer',
-        facebook: '',
-        linkedin: '',
-        github: '',
-        email: '',
-    },
+    // {
+    //     id: 1,
+    //     name: "RUKUNUJJAMAN MIAJI",
+    //     img: `${profile1}`,
+    //     designation: 'Sr. Software Engineer',
+    //     facebook: '',
+    //     linkedin: '',
+    //     github: '',
+    //     email: '',
+    // },
     {
         id: 2,
         name: "MD. MAHBUBUR RAHMAN",

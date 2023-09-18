@@ -5,8 +5,7 @@ import "./Products.css";
 const Product = ({ productData }) => {
   const { title, img, url } = productData || {};
   return (
-    <div className="col-lg-4">
-      
+    <div className="col-xl-4 col-md-6">
       <Link className="product-wrap" target="_blank" to={url}>
         <div
           className=" product-bg"

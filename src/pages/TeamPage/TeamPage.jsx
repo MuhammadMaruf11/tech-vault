@@ -8,8 +8,10 @@ const TeamPage = () => {
       <div className="service-bg">
         <div className="container">
           <div className="row">
-            <div className="section-title">
-              <h2>Our Team</h2>
+            <div className="col-12">
+              <div className="section-title">
+                <h2>Our Team</h2>
+              </div>
             </div>
           </div>
         </div>

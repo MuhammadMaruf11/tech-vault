@@ -96,7 +96,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="dark-mode-toggle d-none ms-auto order-lg-5 order-1 me-2 me-lg-0">
+          <div className="dark-mode-toggle  ms-auto order-lg-5 order-1 me-2 me-lg-0">
             <input
               className="d-none"
               type="checkbox"

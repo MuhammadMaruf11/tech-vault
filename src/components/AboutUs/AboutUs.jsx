@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="about-us-area fix">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 mb-lg-0 mb-5">
               <div
                 className="banner-content wow animate__fadeInLeft"
                 data-wow-delay=".3s"
@@ -39,7 +39,7 @@ const AboutUs = () => {
                 </div>
               </div>
               <div className="row mb-3">
-                <div className="col-md-6">
+                <div className="col-xl-6 col-lg-12 col-md-6">
                   <div
                     className="about-child-wrap wow animate__fadeInUp"
                     data-wow-delay=".5s"
@@ -64,7 +64,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-xl-6 col-lg-12 col-md-6">
                   <div
                     className="about-child-wrap wow animate__fadeInUp"
                     data-wow-delay=".7s"
@@ -86,7 +86,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-xl-6 col-lg-12 col-md-6">
                   <div
                     className="about-child-wrap wow animate__fadeInUp"
                     data-wow-delay=".9s"
@@ -110,7 +110,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-xl-6 col-lg-12 col-md-6">
                   <div
                     className="about-child-wrap wow animate__fadeInUp"
                     data-wow-delay="1.1s"

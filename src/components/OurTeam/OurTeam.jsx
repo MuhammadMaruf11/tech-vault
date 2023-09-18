@@ -40,7 +40,7 @@ const OurTeam = () => {
             {teamData &&
               teamData.map((index) => {
                 return (
-                  <div className="col-lg-3">
+                  <div className="col-lg-4 col-xl-3 col-md-6">
                     <div class=" profile-wrap">
                       <div class="profile-img-top">
                         {" "}

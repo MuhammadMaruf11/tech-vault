@@ -9,7 +9,6 @@ import ContactPage from './pages/ContactPage/ContactPage';
 import ClientsPage from './pages/ClientsPage/ClientsPage';
 
 
-import './App.css';
 // import animate css for animation
 import "animate.css/animate.css";
 

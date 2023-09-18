@@ -23,6 +23,10 @@ body.dark-mode .profile-wrap {
   bottom: 25%;
 }
 
+.profile-img-top img {
+  width: 100%;
+}
+
 .profile-body {
   text-align: center;
   padding: 2rem 0;

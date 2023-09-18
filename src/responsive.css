@@ -1,0 +1,203 @@
+@media screen and (max-width: 1599px) and (min-width: 1200px) {
+  .banner-heading h1 {
+    font-size: 36px;
+  }
+
+  .banner-heading h2 {
+    font-size: 32px;
+  }
+
+  .about-child-title h4 {
+    font-size: 20px;
+  }
+
+  .service-title h3 {
+    font-size: 24px;
+  }
+
+  .profile-wrap.about-profile {
+    width: 416px;
+  }
+
+  .speech-wrap h2 {
+    font-size: 32px;
+  }
+
+  .service-icon i {
+    font-size: 40px;
+  }
+}
+
+/* laptop responsive css here  */
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .banner-area {
+    padding: 100px 0;
+  }
+  .banner-bg {
+    height: 550px;
+  }
+  .banner-heading h1 {
+    font-size: 36px;
+  }
+
+  .banner-heading h2 {
+    font-size: 32px;
+  }
+
+  .about-child-title h4 {
+    font-size: 20px;
+  }
+
+  .about-child-wrap {
+    margin-bottom: 30px;
+  }
+
+  .service-title h3 {
+    font-size: 24px;
+  }
+
+  .profile-wrap.about-profile {
+    width: 456px;
+  }
+
+  .speech-wrap h2 {
+    font-size: 32px;
+  }
+
+  .service-icon i {
+    font-size: 30px;
+  }
+
+  .achievements-title h5 {
+    font-size: 16px;
+  }
+  .odometer-inside span {
+    font-size: 36px;
+  }
+}
+
+/* tablet responsive css here  */
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .banner-area {
+    padding: 100px 0;
+  }
+  .banner-bg {
+    height: 550px;
+  }
+  .banner-heading h1 {
+    font-size: 32px;
+  }
+
+  .banner-heading h2 {
+    font-size: 28px;
+  }
+
+  .about-child-wrap {
+    margin-bottom: 30px;
+  }
+
+  .about-child-title h4 {
+    font-size: 20px;
+  }
+
+  .service-title h3 {
+    font-size: 20px;
+  }
+
+  .profile-wrap.about-profile {
+    width: 560px;
+  }
+
+  .speech-wrap h2 {
+    font-size: 32px;
+  }
+
+  .service-icon i {
+    font-size: 30px;
+  }
+
+  .achievements-title h5 {
+    font-size: 16px;
+  }
+  .odometer-inside span {
+    font-size: 36px;
+  }
+
+  .map-location {
+    height: 350px;
+  }
+
+  .navbar li {
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+  }
+}
+
+/* mobile responsive css here  */
+
+@media screen and (max-width: 767px) {
+  .banner-area {
+    padding: 100px 0;
+  }
+  .banner-bg {
+    height: 550px;
+  }
+  .banner-heading h1 {
+    font-size: 26px;
+  }
+
+  .banner-heading h2 {
+    font-size: 24px;
+  }
+
+  .about-child-wrap {
+    margin-bottom: 30px;
+  }
+
+  .about-child-title h4 {
+    font-size: 20px;
+  }
+
+  .service-title h3 {
+    font-size: 22px;
+  }
+
+  .profile-wrap.about-profile {
+    width: 100%;
+  }
+
+  .speech-wrap h2 {
+    font-size: 24px;
+  }
+
+  .service-icon i {
+    font-size: 30px;
+  }
+
+  .achievements-title h5 {
+    font-size: 16px;
+  }
+  .odometer-inside span {
+    font-size: 36px;
+  }
+
+  .copyright-text {
+    text-align: center;
+  }
+  .product-wrap {
+    margin-bottom: 50px;
+  }
+
+  .map-location {
+    height: 320px;
+  }
+
+  .navbar li {
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+  }
+}
