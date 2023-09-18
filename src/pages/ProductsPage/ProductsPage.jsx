@@ -5,7 +5,7 @@ import Products from "../../components/Products/Products";
 const ProductsPage = () => {
   return (
     <Layout>
-      <div className="service-bg">
+      <div className="section-bg">
         <div className="container">
           <div className="row">
             <div className="col-12">

@@ -5,7 +5,7 @@ import OurTeam from "./../../components/OurTeam/OurTeam";
 const TeamPage = () => {
   return (
     <Layout>
-      <div className="service-bg">
+      <div className="section-bg">
         <div className="container">
           <div className="row">
             <div className="col-12">

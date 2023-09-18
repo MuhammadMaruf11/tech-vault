@@ -5,7 +5,7 @@ import ContactUs from "./../../components/ContactUs/ContactUs";
 const ContactPage = () => {
   return (
     <Layout>
-      <div className="service-bg">
+      <div className="section-bg">
         <div className="container">
           <div className="row">
             <div className="col-12">
