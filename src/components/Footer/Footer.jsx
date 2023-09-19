@@ -90,26 +90,27 @@ const Footer = () => {
                 data-wow-delay=".7s"
               >
                 <div className="footer-widget-title">
-                  <h5>Resources</h5>
+                  <h5>Pages</h5>
                 </div>
                 <ul>
                   <li>
-                    <Link to="">
-                      <i className="fa-solid fa-arrow-right-long"></i>support
+                    <Link to="/about">
+                      <i className="fa-solid fa-arrow-right-long"></i>About
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
-                      <i className="fa-solid fa-arrow-right-long"></i>dashboard
+                    <Link to="/services">
+                      <i className="fa-solid fa-arrow-right-long"></i>Services
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
-                      <i className="fa-solid fa-arrow-right-long"></i>drivers
+                    <Link to="/clients-portfolio">
+                      <i className="fa-solid fa-arrow-right-long"></i>clients
+                      portfolio
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
+                    <Link to="/projects">
                       <i className="fa-solid fa-arrow-right-long"></i>projects
                     </Link>
                   </li>
@@ -129,7 +130,7 @@ const Footer = () => {
                     <li>
                       <i className="fa-solid fa-envelope"></i>
                       <Link to="mailto:techvault@gmail.com">
-                        techvault@gmail.com
+                        info@techvaultltd.com
                       </Link>
                     </li>
                     <li>
@@ -145,7 +146,10 @@ const Footer = () => {
                 <div className="footer-social">
                   <ul>
                     <li>
-                      <Link to="">
+                      <Link
+                        target="_blank"
+                        to="https://www.facebook.com/profile.php?id=61551441031104"
+                      >
                         <i className="fa-brands fa-facebook-f"></i>
                       </Link>
                     </li>
@@ -155,7 +159,10 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="">
+                      <Link
+                        target="_blank"
+                        to="https://www.linkedin.com/in/techvault-ltd-680410292/?_l=en_US"
+                      >
                         <i className="fa-brands fa-instagram"></i>
                       </Link>
                     </li>

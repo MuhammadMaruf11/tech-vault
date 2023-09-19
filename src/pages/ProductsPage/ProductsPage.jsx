@@ -10,7 +10,7 @@ const ProductsPage = () => {
           <div className="row">
             <div className="col-12">
               <div className="section-title">
-                <h2>Our Products</h2>
+                <h2>Our Projects</h2>
               </div>
             </div>
           </div>

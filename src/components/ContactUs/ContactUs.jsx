@@ -9,7 +9,14 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("first: " + name, email, subject, text);
+    console.log(
+      `
+      name: ${name}, 
+      email: ${email},
+      subject: ${subject},
+      message: ${text}
+      `
+    );
     setName("");
     setEmail("");
     setSubject("");

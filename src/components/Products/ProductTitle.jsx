@@ -16,7 +16,7 @@ const ProductTitle = () => {
             </span>
           </div>
           <div className="banner-heading">
-            <h2>Our Products</h2>
+            <h2>Our Projects</h2>
           </div>
           {/* <div className="banner-description">
           <p>
@@ -32,7 +32,7 @@ const ProductTitle = () => {
           data-wow-delay=".3s"
         >
           <Link to="/products" className="btn">
-            See All Products <i className="fa-solid fa-arrow-right-long"></i>
+            See All Projects <i className="fa-solid fa-arrow-right-long"></i>
           </Link>
         </div>
       </div>
