@@ -95,12 +95,13 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link to="/about">
-                      <i className="fa-solid fa-arrow-right-long"></i>About
+                      <i className="fa-solid fa-arrow-right-long"></i>About us
                     </Link>
                   </li>
                   <li>
                     <Link to="/services">
-                      <i className="fa-solid fa-arrow-right-long"></i>Services
+                      <i className="fa-solid fa-arrow-right-long"></i>our
+                      Services
                     </Link>
                   </li>
                   <li>
@@ -111,7 +112,18 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="/projects">
-                      <i className="fa-solid fa-arrow-right-long"></i>projects
+                      <i className="fa-solid fa-arrow-right-long"></i>Our
+                      projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/team">
+                      <i className="fa-solid fa-arrow-right-long"></i>Our Team
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">
+                      <i className="fa-solid fa-arrow-right-long"></i>Contact Us
                     </Link>
                   </li>
                 </ul>
