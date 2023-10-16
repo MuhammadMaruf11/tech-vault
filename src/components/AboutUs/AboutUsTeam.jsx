@@ -151,7 +151,7 @@ const AboutUsTeam = () => {
                 </div>{" "}
                 <div class="profile-body text-center">
                   <h5 class="profile-title mb-0">RUKUNUJJAMAN MIAJI</h5>
-                  <small>Chief Technology Officer</small>
+                  <small>Chief Technical Officer</small>
                 </div>
                 <div className="profile-social">
                   <Link className="px-2" to="#">

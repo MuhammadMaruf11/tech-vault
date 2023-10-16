@@ -43,7 +43,7 @@ const ContactUs = () => {
                 <h3 className="mb-3 ">Get in Touch</h3>
                 <ul className="mb-4">
                   <li>
-                    <span>Phone:</span> +8801999999999
+                    <span>Phone:</span> +9613661122
                   </li>
                   <li>
                     <span>Email:</span> techvault@gmail.com
@@ -57,12 +57,13 @@ const ContactUs = () => {
                 <h3 className="mb-3">Office Hours</h3>
                 <ul className="">
                   <li>
-                    <strong>Saturday - Thursday</strong>
+                    <strong>Saturday - Wednesday</strong>
                   </li>
-                  <li>9:00 AM - 6:30 PM </li>
+                  <li>9:00 AM - 7:30 PM </li>
                   <li className="mt-3">
-                    <strong>Friday</strong> - Closed
+                    <strong>Thursday - Friday</strong>
                   </li>
+                  <li>Closed</li>
                 </ul>
               </div>
             </div>

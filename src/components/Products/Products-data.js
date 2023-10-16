@@ -1,13 +1,14 @@
 import institutionMangement from './../../assets/img/products/college-management.jpg';
 import ecommerceWebsite from './../../assets/img/products/ecommerce.jpg';
-import cllipingPath from './../../assets/img/products/clipping-path.png';
+// import cllipingPath from './../../assets/img/products/clipping-path.png';
 import grandeurae from './../../assets/img/products/grandeurae.png';
 import outss from './../../assets/img/products/outss.png';
 import photobookEditor from './../../assets/img/products/photobook-editor.png';
 import projectManagement from './../../assets/img/products/project-management.png';
-import removeBg from './../../assets/img/products/remove-bg.png';
+// import removeBg from './../../assets/img/products/remove-bg.png';
 import WSIN from './../../assets/img/products/WSIN.png';
-import vLoot from './../../assets/img/products/v-loot.png';
+// import vLoot from './../../assets/img/products/v-loot.png';
+import banking from './../../assets/img/products/banking-api.png';
 
 export const productsData = [
 
@@ -34,7 +35,7 @@ export const productsData = [
         id: 4,
         title: "Photobook Editor",
         img: `${photobookEditor}`,
-        url: 'https://',
+        url: '',
     },
 
     {
@@ -49,18 +50,18 @@ export const productsData = [
         img: `${WSIN}`,
         url: '',
     },
-    {
-        id: 7,
-        title: "Remove Background",
-        img: `${removeBg}`,
-        url: '',
-    },
-    {
-        id: 8,
-        title: "Clipping Path",
-        img: `${cllipingPath}`,
-        url: '',
-    },
+    // {
+    //     id: 7,
+    //     title: "Remove Background",
+    //     img: `${removeBg}`,
+    //     url: '',
+    // },
+    // {
+    //     id: 8,
+    //     title: "Clipping Path",
+    //     img: `${cllipingPath}`,
+    //     url: '',
+    // },
     {
         id: 9,
         title: "Project Management ",
@@ -68,11 +69,17 @@ export const productsData = [
         url: '',
     },
 
-    {
-        id: 10,
-        title: "V-Loot",
-        img: `${vLoot}`,
-        url: "",
-    },
+    // {
+    //     id: 10,
+    //     title: "V-Loot",
+    //     img: `${vLoot}`,
+    //     url: "",
+    // },
 
+    {
+        id: 11,
+        title: "Banking API Service ",
+        img: `${banking}`,
+        url: '',
+    },
 ]

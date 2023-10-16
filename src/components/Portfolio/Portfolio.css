@@ -16,13 +16,16 @@
   color: #000;
   width: 250px;
   margin: auto;
-  height: 180px;
+  height: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
+.portfolio-wrap img {
+  max-height: 200px;
+}
 
 .portfolio-wrap h4 {
   color: #001a27 !important;
