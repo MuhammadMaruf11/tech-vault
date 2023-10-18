@@ -3,7 +3,6 @@
 import profile2 from '../../assets/img/team/profile-2.jpg'
 import profile3 from '../../assets/img/team/profile-3.jpg'
 import profile4 from '../../assets/img/team/profile-4.jpg'
-// import profile5 from '../../assets/img/team/profile-5.jpg'
 import profile7 from '../../assets/img/team/profile-7.jpg'
 import profile8 from '../../assets/img/team/profile-8.jpg'
 import user from '../../assets/img/team/user.png'

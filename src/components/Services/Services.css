@@ -48,7 +48,7 @@
   transition: all 0.3s linear;
   z-index: 0;
   margin-bottom: 30px;
-  height: 350px;
+  height: 310px;
   position: relative;
 }
 .service-wrap::before {

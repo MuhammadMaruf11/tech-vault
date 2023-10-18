@@ -40,19 +40,19 @@ const OurTeam = () => {
             {teamData &&
               teamData.map((index) => {
                 return (
-                  <div className="col-lg-4 col-xl-3 col-md-6">
-                    <div class=" profile-wrap">
-                      <div class="profile-img-top">
+                  <div key={index.id} className="col-lg-4 col-xl-3 col-md-6">
+                    <div className=" profile-wrap">
+                      <div className="profile-img-top">
                         {" "}
                         <img src={index.img} alt="" />
                       </div>{" "}
-                      <div class="profile-body text-center">
-                        <h5 class="profile-title mb-0">{index.name}</h5>
+                      <div className="profile-body text-center">
+                        <h5 className="profile-title mb-0">{index.name}</h5>
                         <small>{index.designation}</small>
                       </div>
                       {/* <div className="-description">
 
-                                    <p class="-text">Some quick example text to build on the  title and make up the bulk of the 's content.</p>
+                                    <p className="-text">Some quick example text to build on the  title and make up the bulk of the 's content.</p>
 
                                 </div> */}
                       <div className="profile-social">
@@ -61,21 +61,21 @@ const OurTeam = () => {
                           to="#"
                           onClick={() => window.open(index.facebook)}
                         >
-                          <i class="fa-brands fa-facebook-f"></i>
+                          <i className="fa-brands fa-facebook-f"></i>
                         </Link>
                         <Link
                           className="px-2"
                           to="#"
                           onClick={() => window.open(index.github)}
                         >
-                          <i class="fa-brands fa-github"></i>
+                          <i className="fa-brands fa-github"></i>
                         </Link>
                         <Link
                           className="px-2"
                           to="#"
                           onClick={() => window.open(index.linkedin)}
                         >
-                          <i class="fa-brands fa-linkedin-in"></i>
+                          <i className="fa-brands fa-linkedin-in"></i>
                         </Link>
                         <Link
                           className="px-2"
@@ -84,7 +84,7 @@ const OurTeam = () => {
                             (window.location = `mailto:${index.email}`)
                           }
                         >
-                          <i class="fa-solid fa-envelope"></i>
+                          <i className="fa-solid fa-envelope"></i>
                         </Link>
                       </div>
                     </div>

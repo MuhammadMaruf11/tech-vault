@@ -19,11 +19,11 @@ const Service = ({ serviceData }) => {
               <p>{des.slice(0, 120)}...</p>
             </div>
           </div>
-          <div className="service-link">
+          {/* <div className="service-link">
             <Link to="#">
               Read More <i className="fa-solid fa-arrow-right-long"></i>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

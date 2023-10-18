@@ -23,7 +23,7 @@ const AboutUs = () => {
                 <div className="banner-heading">
                   <h2>
                     Trusted By Worldwide Clients Since{" "}
-                    <span className="text-theme-2">2020</span>
+                    <span className="text-theme-2">2019</span>
                   </h2>
                 </div>
                 <div className="banner-description mb-5">
@@ -33,7 +33,7 @@ const AboutUs = () => {
                       {" "}
                       Software Development
                     </strong>
-                    . Our journey began 2020, and since then, we have been
+                    . Our journey began 2019, and since then, we have been
                     dedicated to best software solutions to our clients. .
                   </span>
                 </div>
@@ -134,17 +134,6 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="banner-btn d-flex justify-content-between">
-                <button
-                  className="btn wow animate__fadeIn"
-                  data-wow-delay="1.3s"
-                >
-                  Get in Touch
-                </button>
-                {/* <div className="signature-ceo">
-                    <img src={SignCEO} alt="sign" />
-                  </div> */}
               </div>
             </div>
             <div className="col-lg-6">

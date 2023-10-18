@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import profile from "../../assets/img/team/profile.jpg";
 import profile6 from "../../assets/img/team/profile-6.jpg";
@@ -13,31 +12,31 @@ const AboutUsTeam = () => {
           <div className="row mb-5 pb-5">
             <div className="col-lg-6">
               <div
-                class="profile-wrap about-profile wow animate__zoomIn"
+                className="profile-wrap about-profile wow animate__zoomIn"
                 data-wow-delay=".3s"
               >
-                <div class="profile-img-top">
+                <div className="profile-img-top">
                   {" "}
                   <img src={profile6} alt="" />
                 </div>{" "}
-                <div class="profile-body text-center">
-                  <h5 class="profile-title mb-0">JANNATUL MAWA</h5>
+                <div className="profile-body text-center">
+                  <h5 className="profile-title mb-0">JANNATUL MAWA</h5>
                   <small>Chairman</small>
                 </div>
-                <div className="profile-social">
+                {/* <div className="profile-social">
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook-f"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6">
@@ -111,73 +110,73 @@ const AboutUsTeam = () => {
             </div>
             <div className="col-lg-6 order-1 order-lg-2">
               <div
-                class=" profile-wrap about-profile wow animate__zoomIn"
+                className=" profile-wrap about-profile wow animate__zoomIn"
                 data-wow-delay=".3s"
               >
-                <div class="profile-img-top">
+                <div className="profile-img-top">
                   {" "}
                   <img src={profile} alt="" />
                 </div>{" "}
-                <div class="profile-body text-center">
-                  <h5 class="profile-title mb-0">MD. A.G. MAHMUD</h5>
+                <div className="profile-body text-center">
+                  <h5 className="profile-title mb-0">MD. A.G. MAHMUD</h5>
                   <small>Managing Director</small>
                 </div>
-                <div className="profile-social">
+                {/* <div className="profile-social">
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook-f"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6">
               <div
-                class="profile-wrap about-profile wow animate__zoomIn"
+                className="profile-wrap about-profile wow animate__zoomIn"
                 data-wow-delay=".3s"
               >
-                <div class="profile-img-top">
+                <div className="profile-img-top">
                   {" "}
                   <img src={profile1} alt="" />
                 </div>{" "}
-                <div class="profile-body text-center">
-                  <h5 class="profile-title mb-0">RUKUNUJJAMAN MIAJI</h5>
-                  <small>Chief Technical Officer</small>
+                <div className="profile-body text-center">
+                  <h5 className="profile-title mb-0">RUKUNUJJAMAN MIAJI</h5>
+                  <small>Chief Executive Officer</small>
                 </div>
-                <div className="profile-social">
+                {/* <div className="profile-social">
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook-f"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
                   <Link className="px-2" to="#">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6">
               <div className="speech-wrap">
                 <h2>Technology Visionary & Strategist</h2>
                 <p className="wow animate__fadeInUp" data-wow-delay=".2s">
-                  As the Chief Technology Officer (CTO) at Tech Vault Ltd, I
-                  lead our journey into the future of technology. With a deep
-                  passion for innovation and a vision for transformative
-                  solutions, I oversee our technological strategy, ensuring that
-                  we stay at the cutting edge of the industry.
+                  As the Chief Executive Officer (CEO) at Tech Vault Ltd, I lead
+                  our journey into the future of technology. With a deep passion
+                  for innovation and a vision for transformative solutions, I
+                  oversee our technological strategy, ensuring that we stay at
+                  the cutting edge of the industry.
                 </p>
                 <p className="wow animate__fadeInUp" data-wow-delay=".4s">
                   My role is not just about staying current with the latest

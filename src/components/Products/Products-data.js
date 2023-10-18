@@ -1,13 +1,10 @@
 import institutionMangement from './../../assets/img/products/college-management.jpg';
 import ecommerceWebsite from './../../assets/img/products/ecommerce.jpg';
-// import cllipingPath from './../../assets/img/products/clipping-path.png';
 import grandeurae from './../../assets/img/products/grandeurae.png';
 import outss from './../../assets/img/products/outss.png';
 import photobookEditor from './../../assets/img/products/photobook-editor.png';
 import projectManagement from './../../assets/img/products/project-management.png';
-// import removeBg from './../../assets/img/products/remove-bg.png';
 import WSIN from './../../assets/img/products/WSIN.png';
-// import vLoot from './../../assets/img/products/v-loot.png';
 import banking from './../../assets/img/products/banking-api.png';
 
 export const productsData = [

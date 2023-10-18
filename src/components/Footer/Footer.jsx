@@ -62,23 +62,29 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li>
-                    <Link to="">
-                      <i className="fa-solid fa-arrow-right-long"></i>goggle
+                    <Link
+                      target="_blank"
+                      to="https://www.facebook.com/profile.php?id=61551441031104"
+                    >
+                      <i className="fa-solid fa-arrow-right-long"></i>Facebook
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
-                      <i className="fa-solid fa-arrow-right-long"></i>dribble
+                    <Link target="_blank" to="">
+                      <i className="fa-solid fa-arrow-right-long"></i>Github
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
+                    <Link
+                      target="_blank"
+                      to="https://www.linkedin.com/in/techvault-ltd-680410292/?_l=en_US"
+                    >
                       <i className="fa-solid fa-arrow-right-long"></i>linkedin
                     </Link>
                   </li>
                   <li>
-                    <Link to="">
-                      <i className="fa-solid fa-arrow-right-long"></i>wikipedia
+                    <Link target="_blank" to="">
+                      <i className="fa-solid fa-arrow-right-long"></i>Youtube
                     </Link>
                   </li>
                 </ul>
@@ -141,17 +147,20 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-envelope"></i>
-                      <Link to="mailto:techvault@gmail.com">
+                      <Link
+                        to="mailto:info@techvaultltd.com"
+                        className="text-lowercase"
+                      >
                         info@techvaultltd.com
                       </Link>
                     </li>
                     <li>
                       <i className="fa-solid fa-location-dot"></i>
-                      abc, xyz, Dhaka, Bangladesh
+                      E-9/6, China Town, Naya Paltan, Dhaka-1000
                     </li>
                     <li>
-                      <i className="fa-solid fa-mobile-button"></i>
-                      <Link to="tel:+8801999999999">01999999999</Link>
+                      <i className="fa-solid fa-phone"></i>
+                      <Link to="tel:+9613661122">+9613661122</Link>
                     </li>
                   </ul>
                 </div>
@@ -175,7 +184,7 @@ const Footer = () => {
                         target="_blank"
                         to="https://www.linkedin.com/in/techvault-ltd-680410292/?_l=en_US"
                       >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                       </Link>
                     </li>
                     <li>

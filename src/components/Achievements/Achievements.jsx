@@ -17,7 +17,7 @@ const Achievements = () => {
                 <div className="achievements-icon">
                   <i className="fa-solid fa-people-roof"></i>
                 </div>
-                <Odometer value={100} animation="count" />
+                <Odometer value={30} animation="count" />
                 <div className="achievements-title">
                   <h5>Finished Projects</h5>
                 </div>
@@ -31,7 +31,7 @@ const Achievements = () => {
                 <div className="achievements-icon">
                   <i className="fa-solid fa-arrows-to-circle"></i>
                 </div>
-                <Odometer value={50} format="(.ddd),dd" />
+                <Odometer value={15} format="(.ddd),dd" />
                 <div className="achievements-title">
                   <h5>Create Jobs</h5>
                 </div>
@@ -45,7 +45,7 @@ const Achievements = () => {
                 <div className="achievements-icon">
                   <i className="fa-solid fa-user"></i>
                 </div>
-                <Odometer value={1000} format="(,ddd).dd" />
+                <Odometer value={20} format="(,ddd).dd" />
                 <div className="achievements-title">
                   <h5>Happy Customers</h5>
                 </div>
@@ -59,7 +59,7 @@ const Achievements = () => {
                 <div className="achievements-icon">
                   <i className="fa-solid fa-crosshairs"></i>
                 </div>
-                <Odometer value={10} format="(.ddd),dd" />
+                <Odometer value={5} format="(.ddd),dd" />
                 <div className="achievements-title">
                   <h5>Years of Experience</h5>
                 </div>

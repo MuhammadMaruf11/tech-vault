@@ -31,7 +31,7 @@ const ProductTitle = () => {
           className="see-services-btn wow animate__fadeInRight"
           data-wow-delay=".3s"
         >
-          <Link to="/products" className="btn">
+          <Link to="/projects" className="btn">
             See All Projects <i className="fa-solid fa-arrow-right-long"></i>
           </Link>
         </div>

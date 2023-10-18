@@ -132,6 +132,11 @@
   .navbar li {
     margin: 0;
     border-bottom: 1px solid #fff;
+    margin-bottom: 12px;
+  }
+
+  .navbar li a {
+    display: block;
     padding: 8px 0;
   }
 }
@@ -143,7 +148,7 @@
     padding: 100px 0;
   }
   .banner-bg {
-    height: 550px;
+    height: 525px;
   }
   .banner-heading h1 {
     font-size: 26px;
@@ -198,6 +203,10 @@
   .navbar li {
     margin: 0;
     border-bottom: 1px solid #fff;
+  }
+
+  .navbar li a {
+    display: block;
     padding: 8px 0;
   }
 

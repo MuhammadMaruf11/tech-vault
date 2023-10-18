@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -38,7 +39,7 @@ const Banner = () => {
                   </p>
                 </div>
                 <div className="banner-btn">
-                  <button className="btn">start now</button>
+                  <Link to="/contact" className="btn">start now</Link>
                 </div>
               </div>
             </div>

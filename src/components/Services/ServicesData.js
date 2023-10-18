@@ -1,74 +1,106 @@
 export const servicesData = [
     {
         id: 1,
-        title: "Cloud Management",
-        icon: `fa-solid fa-cloud-arrow-down`,
-        des: "We have enough qualified teams for web design. We keep a close eye on the latest market trend for web design and always try to be top service very sincerely and appropriately to our clients.",
+        title: "Artificial Intelligence",
+        icon: `fa-solid fa-brain`,
+        des: `Unlock the power of Artificial Intelligence with our cutting-edge services. Our AI offerings are designed to elevate your business to new heights. From custom AI solutions tailored to your specific needs, to machine learning algorithms that provide predictive insights, and natural language processing for advanced communication, we've got your AI needs covered. Discover how our expertise in computer vision, data analytics, and chatbot development can transform your operations. Our AI services are backed by ethical practices and a commitment to data security, ensuring you can navigate the future confidently. Embrace AI's potential with us and revolutionize your digital landscape.`,
     },
     {
         id: 2,
-        title: "Web Development",
-        icon: `fa-solid fa-code`,
-        des: 'We believe “Customer satisfaction is our main profit”. We always try to develop innovative and creative products and services for our valuable customers. We are committed to providing quality service to our valuable clients. We are super experts in software development, cloud-based software, desktop-based software, and on-demand customer.',
+        title: "Data Science and Machine Learning",
+        icon: `fa-solid fa-laptop-code`,
+        des: `Experience the future of data-driven decision-making with our Data Science and Machine Learning services. We're here to empower your organization with the tools and insights needed to thrive in today's data-centric world. Our data science experts are skilled in extracting meaningful insights from complex data, while our machine learning capabilities provide predictive models, recommendation engines, and classification systems.
+
+        With our services, you can turn data into a strategic asset, uncover hidden patterns, and make predictions that drive your business forward. Whether it's enhancing your marketing strategies, optimizing operations, or understanding customer behavior, our data analytics and machine learning algorithms can revolutionize your approach.
+
+        We provide consultation and training to equip your team with the knowledge and skills required to leverage these technologies effectively. Our solutions are scalable, ensuring they adapt to your growing needs and seamlessly integrate into your existing workflows.
+
+        At the heart of our services is a commitment to data security and ethical practices, ensuring your data is protected, and AI algorithms are used responsibly. Explore the endless possibilities of Data Science and Machine Learning with us, and chart a path towards data-driven success.`,
     },
     {
         id: 3,
-        title: "E-Commerce Development",
-        icon: `fa-solid fa-at`,
-        des: "We have quality multi-vendor, single vendor products for e-commerce. As we have a dedicated team for e-commerce development, we focus on our client requirements to fulfill the optimal level of satisfaction. We are super client oriented about e-commerce development.",
+        title: "Cloud Management",
+        icon: `fa-solid fa-cloud-arrow-down`,
+        des: `Simplify and enhance your cloud infrastructure with our Cloud Management Services. We optimize costs, ensure security, and provide 24/7 support, so you can focus on what matters most—your business. Trust us to keep your cloud environment efficient, secure, and scalable.`,
     },
     {
         id: 4,
-        title: "Mobile Application Development",
-        icon: `fa-brands fa-apple-pay`,
-        des: "We provide a range of mobile application development services including custom mobile development on IOS or Android, Progressive web app and cross-platform app development, Design UI/UX service, Mobile app porting, App consulting and prototyping, Cloud consulting, Microservice Architecture for mobile app development.",
+        title: "Accounting Services",
+        icon: `fa-solid fa-file-invoice`,
+        des: `Effortlessly manage your finances with our expert Accounting Services. From bookkeeping to financial reporting, we provide the expertise and support to keep your financial records in order. Let us take care of the numbers, so you can focus on growing your business.`,
     },
     {
         id: 5,
         title: "Security Management",
         icon: `fa-solid fa-shield-halved`,
-        des: "We provide CMS for any specific requirements for the customer about solving the business-related issue. CMS comes in all shapes and sizes with its ownset of features and benefits. CMS is tailored to e-commerce sites with features of pricing and online store functionality as well.",
+        des: `Safeguard your business with our Security Management solutions. We provide comprehensive security strategies, risk assessment, and 24/7 monitoring to protect your assets, data, and operations. Your peace of mind is our top priority.`,
     },
     {
         id: 6,
-        title: "Bookkeeping Service",
-        icon: `fa-solid fa-receipt`,
-        des: "We provide LMS for any specific requirements for the customer about solving the business-related issue. CMS comes in all shapes and sizes with its ownset of features and benefits. CMS is tailored to e-commerce sites with features of pricing and online store functionality as well.",
+        title: "Accounting API Integration (Self, Quickbook, Zohobook, SnelStart)",
+        icon: `fa-solid fa-calculator`,
+        des: `Effortlessly streamline your financial workflows with our Accounting API Integration. Connect your self-developed systems or popular accounting platforms like Quickbooks, ZohoBooks, and SnelStart to harmonize your financial data. Enhance efficiency, accuracy, and data flow, making accounting a breeze.`,
     },
     {
         id: 7,
         title: "Banking API Service Provider",
         icon: `fa-solid fa-building-columns`,
-        des: "Digital Marketing gives businesses a platform that streamlines the creative and content adaption process to help brands conquer personalization through expertise in the Digital Marketing field. Our services include Planning and Strategy, Organic SEO Operation, Google advertising, Facebook, Instagram, and LinkedIn Ad Management, Company Branding, Graphics Design & Video Editing, and a range of other digital marketing services and SEO that meets 360-degree digital marketing solution.",
+        des: `We are your gateway to seamless financial innovation. As a Banking API Service Provider, we offer access to a world of financial possibilities. Connect and build upon our robust APIs to create customized banking solutions, from payment processing to account management. Trust us to be your partner in the ever-evolving world of digital finance.`,
     },
     {
         id: 8,
-        title: "Accounting API Integration (Self, Quickbook, Zohobook, SnelStart)",
-        icon: `fa-solid fa-calculator`,
-        des: "Digital Marketing gives businesses a platform that streamlines the creative and content adaption process to help brands conquer personalization through expertise in the Digital Marketing field. Our services include Planning and Strategy, Organic SEO Operation, Google advertising, Facebook, Instagram, and LinkedIn Ad Management, Company Branding, Graphics Design & Video Editing, and a range of other digital marketing services and SEO that meets 360-degree digital marketing solution.",
+        title: "ERP Solution",
+        icon: `fa-solid fa-ethernet`,
+        des: `Simplify, streamline, and supercharge your business operations with our ERP Solution. Our comprehensive software integrates all facets of your business, from finances to inventory, fostering efficiency and informed decision-making. Say goodbye to complexity and hello to seamless productivity.`,
     },
     {
         id: 9,
-        title: "School Management Accounting",
-        icon: `fa-solid fa-graduation-cap`,
-        des: "Digital Marketing gives businesses a platform that streamlines the creative and content adaption process to help brands conquer personalization through expertise in the Digital Marketing field. Our services include Planning and Strategy, Organic SEO Operation, Google advertising, Facebook, Instagram, and LinkedIn Ad Management, Company Branding, Graphics Design & Video Editing, and a range of other digital marketing services and SEO that meets 360-degree digital marketing solution.",
+        title: "Web Application Development",
+        icon: `fa-solid fa-code`,
+        des: `Bring your digital vision to life with our Web Application Development services. We craft tailored, user-friendly web applications that cater to your unique needs. From e-commerce platforms to data analytics dashboards, we deliver solutions that make your online presence more engaging, efficient, and successful. Your digital aspirations, our expertise.`,
     },
     {
         id: 10,
-        title: "Human resource management",
-        icon: `fa-solid fa-people-group`,
-        des: "Digital Marketing gives businesses a platform that streamlines the creative and content adaption process to help brands conquer personalization through expertise in the Digital Marketing field. Our services include Planning and Strategy, Organic SEO Operation, Google advertising, Facebook, Instagram, and LinkedIn Ad Management, Company Branding, Graphics Design & Video Editing, and a range of other digital marketing services and SEO that meets 360-degree digital marketing solution.",
+        title: "Mobile Application Development",
+        icon: `fa-solid fa-mobile`,
+        des: `Empower your business with our Mobile Application Development services. We transform your ideas into dynamic, user-friendly mobile apps that engage, connect, and solve problems. Whether for iOS or Android, our development team brings your vision to life, ensuring your presence in the palm of your customers' hands. Elevate your mobile strategy with us.`,
     },
     {
         id: 11,
-        title: "Organization Accounting",
-        icon: `fa-solid fa-sitemap`,
-        des: "Digital Marketing gives businesses a platform that streamlines the creative and content adaption process to help brands conquer personalization through expertise in the Digital Marketing field. Our services include Planning and Strategy, Organic SEO Operation, Google advertising, Facebook, Instagram, and LinkedIn Ad Management, Company Branding, Graphics Design & Video Editing, and a range of other digital marketing services and SEO that meets 360-degree digital marketing solution.",
+        title: "Desktop Application Development",
+        icon: `fa-solid fa-computer`,
+        des: `Elevate your productivity and user experience with our Desktop Application Development services. We craft efficient, customized software solutions tailored to your business needs. From offline tools to data-intensive applications, we bring your vision to life on the desktop, offering robust performance and a seamless user interface. Harness the power of the desktop with us.`,
     },
     {
         id: 12,
-        title: "ERP Solution",
-        icon: `fa-solid fa-ethernet`,
-        des: "Digital Marketing gives businesses a platform that streamlines the creative and content adaption process to help brands conquer personalization through expertise in the Digital Marketing field. Our services include Planning and Strategy, Organic SEO Operation, Google advertising, Facebook, Instagram, and LinkedIn Ad Management, Company Branding, Graphics Design & Video Editing, and a range of other digital marketing services and SEO that meets 360-degree digital marketing solution.",
+        title: "E-Commerce Development",
+        icon: `fa-solid fa-cart-shopping`,
+        des: "We have quality multi-vendor, single vendor products for e-commerce. As we have a dedicated team for e-commerce development, we focus on our client requirements to fulfill the optimal level of satisfaction. We are super client oriented about e-commerce development.",
     },
+
+    {
+        id: 13,
+        title: "Bookkeeping Service",
+        icon: `fa-solid fa-receipt`,
+        des: `Stay on top of your finances effortlessly with our Bookkeeping Services. We handle the nitty-gritty of financial record-keeping, so you can focus on what you do best - running your business. Trust our experts to maintain accurate and organized financial records, ensuring financial transparency and compliance.`,
+    },
+    {
+        id: 14,
+        title: "School Management Accounting",
+        icon: `fa-solid fa-graduation-cap`,
+        des: `Simplify your school's financial management with our specialized solutions. Our School Management Accounting services provide a tailored approach to handle budgets, expenses, payroll, and more. Streamline administrative processes and gain clarity on your school's financial health, empowering you to make informed decisions for the benefit of your students and institution.`,
+    },
+    {
+        id: 15,
+        title: "Human resources management",
+        icon: `fa-solid fa-people-group`,
+        des: `Elevate your workforce with our Human Resources Management solutions. We provide the tools and expertise to streamline hiring, payroll, performance evaluations, and more. Our services empower your organization to attract, retain, and develop top talent, ensuring your people are your greatest asset. Let us help you build a strong, motivated, and efficient team.`,
+    },
+    {
+        id: 16,
+        title: "Organization Accounting",
+        icon: `fa-solid fa-sitemap`,
+        des: `Unlock financial clarity and efficiency for your organization with our specialized accounting services. From meticulous record-keeping to comprehensive financial reporting, we help your organization maintain fiscal health and compliance. With our expertise, you can focus on your mission, knowing your financials are in capable hands.`,
+    },
+
 ];

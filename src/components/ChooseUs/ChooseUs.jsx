@@ -118,17 +118,7 @@ const ChooseUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="banner-btn d-flex justify-content-between">
-                <button
-                  className="btn wow animate__fadeIn"
-                  data-wow-delay="1.1s"
-                >
-                  Get in Touch
-                </button>
-                {/* <div className="signature-ceo">
-                    <img src={SignCEO} alt="sign" />
-                  </div> */}
-              </div>
+              
             </div>
           </div>
         </div>
